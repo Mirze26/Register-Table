@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background: #1c2841;
+ 
+}
+
+
+
+
+
+#register {
+
+    .container {
+
+        width: 680px;
+        
+    }
+
+
+
+
+
+    .title {
+
+        margin-bottom: -100px;
+        position: relative;
+        left: 223px;
+        top: 45px;
+        color: darkgray;
+
+
+    }
+
+
+    .design-font {
+
+        font-family: sans-serif;
+    }
+
+
+
+    .input-name {
+        position: relative;
+        top: 154px;
+        left: -20px;
+        height: 80px;
+        line-height: 69px;
+    }
+
+    .input-surname {
+
+        position: relative;
+        left: 366px;
+        top: 74px;
+        height: 80px;
+        line-height: 69px;
+
+    }
+
+
+    .input-email {
+
+        position: relative;
+        top: 85px;
+        left: -20px;
+        height: 80px;
+        line-height: 69px;
+
+    }
+
+
+    .input-password {
+
+        position: relative;
+        left: 366px;
+        top: 5px;
+        height: 80px;
+        line-height: 69px;
+
+    }
+
+
+    .input-phone {
+
+        position: relative;
+        top: 16px;
+        left: -20px;
+        height: 80px;
+        line-height: 69px;
+
+    }
+
+
+    .input-birthday {
+
+        position: relative;
+        left: 182px;
+        top: -32px;
+        height: 60px;
+        line-height: 50px;
+        width: 309px;
+        color: #f0ffff;
+    }
+
+
+
+    .input-age {
+
+
+        position: relative;
+        top: 85px;
+        left: -9px;
+        height: 60px;
+        line-height: 69px;
+        color: #f0ffff;
+
+
+    }
+
+
+    .age {
+
+        position: relative;
+        bottom: 203px;
+    }
+
+
+
+    .input-gender {
+
+        position: relative;
+        left: 140px;
+        top: 0px;
+        height: 20px;
+        line-height: 50px;
+        width: 309px;
+    }
+
+
+    .input-female {
+
+        position: relative;
+        left: 346px;
+        bottom: 87px;
+        height: 21px;
+        width: 75px;
+    }
+
+
+
+    .input-color {
+
+        position: relative;
+        left: 486px;
+        bottom: 25px;
+        width: 116px;
+        height: 37px;
+
+
+
+    }
+
+
+    .color {
+
+        position: relative;
+        left: 264px;
+        bottom: 35px;
+        color: #f0ffff;
+        font-size: 19px;
+        cursor: pointer;
+
+    }
+
+
+    .colorfull {
+
+        position: relative;
+        bottom: 46px;
+        right: 10px;
+
+    }
+
+
+
+    .input-text {
+
+        position: relative;
+        left: 184px;
+        top: 95px;
+        width: 315px;
+        height: 103px;
+        background: repeat;
+        color: #f0ffff;
+        border: 2px solid #f0ffff;
+        padding: 10px;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+
+
+    .text-zone {
+
+        position: relative;
+        right: 204px;
+        bottom: 185px;
+    }
+
+
+
+
+
+    input {
+
+        position: absolute;
+        height: 6vh;
+        outline: none;
+        font-size: 19px;
+        padding: 0 30px;
+        border-radius: 10px;
+        border: 2px solid #f0ffff;
+        background: #1c2841;
+        background: transparent;
+        transition: 0.1s ease;
+        z-index: 1111;
+        margin-top: 50px;
+        color: #f0ffff;
+    }
+
+
+    .labelline {
+
+        position: absolute;
+        font-size: 19px;
+        color: #f0ffff;
+        padding: 5px 24px;
+        margin: 38px 22px;
+        background-color: #1c2841;
+        transition: 0.2s ease;
+    }
+
+
+    .gender-male {
+
+        position: relative;
+        left: 244px;
+        top: -94px;
+        color: #f0ffff;
+    }
+
+
+    .gender-female {
+
+        left: 234px;
+        position: relative;
+        bottom: 92px;
+        color: #f0ffff;
+    }
+
+
+
+    .male-female {
+
+        position: relative;
+        top: -49px;
+        left: -10px;
+    }
+
+
+    #country {
+
+        height: 42px;
+        width: 305px;
+        position: relative;
+        left: 370px;
+        bottom: 77px;
+        border: 3px;
+    }
+
+
+
+    select:valid {
+
+        color: #f0ffff;
+        background: #1c2841;
+
+    }
+
+
+    .button {
+
+        position: relative;
+        left: 278px;
+        top: 140px;
+        width: 126px;
+        height: 46px;
+        background: center;
+        border: 2px solid;
+        color: azure;
+    }
+
+    button:hover {
+
+        background-color: #12f3f3;
+        color: #1c2841;
+    }
+
+    .btn {
+
+        position: relative;
+        bottom: 233px;
+    }
+
+
+
+    .check {
+
+        position: relative;
+        left: 382px;
+        top: 140px;
+        width: 20px;
+    }
+
+
+    .remember-me {
+
+        position: relative;
+        bottom: 235px;
+        left: 28px;
+    }
+
+
+    .label-text {
+
+        position: relative;
+        left: 240px;
+        top: 114px;
+        color: #f0ffff;
+    }
+
+
+
+    input:focus {
+
+        border: 1px solid blue;
+    }
+
+
+
+    input:focus+.labelline,
+
+    input:valid+.labelline {
+
+        color: #4d06f3;
+        height: 30px;
+        line-height: 30px;
+        transform: translate(-15px, -16px) scale(0.88);
+        z-index: 1111;
+    }
+
+}
+
+
+
+#table{
+
+   table{
+
+    color: rgb(248, 244, 244);
+   }
+
+
+    .title{
+
+        color: #f0ffff;
+    }
+
+    .table-title{
+
+        position: relative;
+        left: 382px;
+        bottom: 7px;
+        color: darkgray;
+    }
+}
